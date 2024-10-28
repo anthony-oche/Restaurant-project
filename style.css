@@ -1,0 +1,250 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+body{
+    height:1700px;
+}
+div{
+    border:0px solid red;
+    
+}
+.links{
+    list-style:none;
+    border:0px solid blue;
+    padding:20px 0px 10px 30px ;
+    width:60%;
+    margin:auto;
+    margin-top:10px;
+    background-color:#36454F;
+    border-radius:100px;
+}
+.links li{
+    display:inline-block;
+}
+.links li a{
+    text-decoration:none;
+    padding:0px 30px;
+    display:flex;
+    color:#FFD700;
+}
+.links li a:hover{
+    font-size:120%;
+}
+#img{
+    width:10%
+}
+#nav{
+    display:flex;
+    height:80px
+}
+#nava{
+    width:100%;
+}
+/* section 2 */
+
+#banner{
+    background-image:url('images/bg.jpg');
+    height:600px;
+    background-size:cover;
+    background-attachment:fixed;
+}
+.overlay{
+    background-color:rgba(15,17,8,0.4);
+    height:inherit;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.overlay h1{
+    color:white;
+}
+.overlay .menu a{
+    text-decoration:none;
+    display:inline-block;
+    background-color:#C8963E;
+    margin-top:100px;
+    padding:10px 30px;
+    color:white;
+    border-radius:50px;
+    text-align:center;
+}
+.overlay .menu a:hover{
+    font-size:120%;
+}
+/* section3 */
+
+.view{
+    min-height:300px;
+    display:flex;
+    justify-content:space-around;
+    padding-right:10%;
+    padding-left:10%;
+    
+    margin-top:-100px;
+    
+}
+.float{
+    width:30%;
+    height:300px;
+}
+.about{
+    background-image:url('images/about.png');
+    background-size:cover;
+}
+.aboutlay{
+    background-color:rgba(15,17,8,0.3);
+    height:inherit;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+.aboutlay h2, p{
+    color:white;
+    margin-top:10px;
+}
+.aboutlay .alink a{
+    text-decoration:none;
+    display:inline-block;
+    margin-top:50px;
+    padding:10px 20px;
+    background-color:#888098;
+    border-radius:50px;
+    color:white;
+    text-align:center;
+}
+.gall{
+    background-image:url('images/authentic.jpg');
+    background-size:cover;
+}
+.gallay{
+    background-color:rgba(213, 15, 15, 0.3);
+    height:inherit;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+.gallay .glink a{
+    text-decoration:none;
+    display:inline-block;
+    margin-top:50px;
+    padding:10px 20px;
+    background-color:#888098;
+    border-radius:50px;
+    color:white;
+    text-align:center;
+}
+.gallay h2{
+    color:white;
+    margin-top:10px;
+}
+.resev{
+    background-image:url('images/cou.jpg');
+    background-size:cover;
+}
+.relay{
+    background-color:rgba(15,17,8,0.3);
+    height:inherit;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+.relay .rlink a{
+    text-decoration:none;
+    display:inline-block;
+    margin-top:50px;
+    padding:10px 20px;
+    background-color:#888098;
+    border-radius:50px;
+    color:white;
+    text-align:center;
+}
+.relay h2{
+    color:white;
+    margin-top:10px;
+}
+.alink a:hover{
+background-color:red;
+font-size:120%;
+color: black;
+}
+.glink a:hover{
+background-color:red;
+font-size:120%;
+color: black;
+}
+.rlink a:hover{
+background-color:red;
+font-size:120%;
+color: black;
+}
+.last{
+    display:flex;
+}
+
+.order{
+    padding-right:7%;
+    padding-left:7%;
+}
+
+
+.footer{
+    padding: 50px 0;
+    min-height:400px;
+    background-color:#36454F;
+}
+.up{
+    display:flex;
+    padding-top:2%;
+    align-items:center;
+}
+.down{
+    display:flex;
+    margin-top:40px;
+    align-items:center;
+}
+.sa, .me{
+    width:50%;
+    padding-right:10%;
+    padding-left:10%;
+}
+.socials img{
+    width:35px;
+    height:35px;
+}
+h1, h2, h3 {
+  font-family: Poppins, sans-serif;
+  font-weight:bold;
+  color:#FFD700;
+}
+li {
+  font-family: Roboto, sans-serif;
+  color:#F0F0F0;
+}
+.overlay h1,p{
+    color:#FFD700;
+}
+.last{
+    
+    padding: 80px 0;
+}
+div.feel{
+ width:80%;
+ background-color:#333333;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ margin-bottom: 25px;
+
+}
+.month{
+    text-align:center;
+    padding:10px 20px;
+    background-color:#36454F;
+}
+.container{
+    background-color:#333333;
+}
